@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--lato);
+}
+
+:root {
+    
+    --azul_escuro: #003D73;
+    --fundo_pagina: #ECF1F8;
+}
+
+.primeira_secao_menu_esquerdo {
+    display: flex;
+}
+
+.menu_esquerdo_pequeno {
+    width: 70px;
+    height: 100vh;
+    background-color: var(--azul_escuro);
+}    
+
+.menu_esquerdo_grande {
+    width: 300px;
+    height: 100vh;
+    background-color: var(--azul_escuro);
+}    
+
+.corpo_do_site {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--fundo_pagina);
+}   
+
+.logo_integradash_desktop {
+    width: 40px;
+    margin: 30px 10px 0 20px;
+
+}
+
+.espaco_menu_pequeno1 {
+    background-color: var(--azul_escuro);
+    height: 6vh;
+    width: 50px;
+}
+
+.espaco_menu_pequeno2 {
+    background-color: var(--azul_escuro);
+    height: 36vh;
+    width: 50px;
+}
+
+.menu_parte_superior  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-left: 10PX;
+}
+
+.menu_parte_superior img {
+    width: 70%;
+}
+
+.menu_parte_inferior {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-left: 10PX;
+}
+
+.menu_parte_inferior img {
+    width: 70%;}
+
+.menu_parte_inferior .botao_sair {
+    margin-left: 7px;
+}
+
+.hover1:hover {
+    background-color: rgb(55, 139, 218);
+
+    /* width: 30px;
+    height: 30px; */
+}
+
