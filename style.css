@@ -2,13 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--lato);
+    font-family: 'Lato', sans-serif;
 }
 
 :root {
     
-    --azul_escuro: #003D73;
+    --azul_padrao: #003D73;
     --fundo_pagina: #ECF1F8;
+    --fonte_Lato: 'Lato', sans-serif;
+    --branco: #fff;
+    --azul_escuro: #053155; 
+
 }
 
 .primeira_secao_menu_esquerdo {
@@ -18,13 +22,13 @@
 .menu_esquerdo_pequeno {
     width: 70px;
     height: 100vh;
-    background-color: var(--azul_escuro);
+    background-color: var(--azul_padrao);
 }    
 
 .menu_esquerdo_grande {
     width: 300px;
     height: 100vh;
-    background-color: var(--azul_escuro);
+    background-color: var(--azul_padrao);
 }    
 
 .corpo_do_site {
@@ -34,19 +38,19 @@
 }   
 
 .logo_integradash_desktop {
-    width: 40px;
-    margin: 30px 10px 0 20px;
+    width: 35px;
+    margin: 15px 0 0 10px;
 
 }
 
 .espaco_menu_pequeno1 {
-    background-color: var(--azul_escuro);
-    height: 6vh;
+    background-color: var(--azul_padrao);
+    height: 9vh;
     width: 50px;
 }
 
 .espaco_menu_pequeno2 {
-    background-color: var(--azul_escuro);
+    background-color: var(--azul_padrao);
     height: 36vh;
     width: 50px;
 }
@@ -54,7 +58,7 @@
 .menu_parte_superior  {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
     margin-left: 10PX;
 }
@@ -67,7 +71,7 @@
     
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
     margin-left: 10PX;
 }
@@ -86,3 +90,29 @@
     height: 30px; */
 }
 
+.Favorito_menu_grande{
+    color: var(--branco   );
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+.Escolha_sua_planta_menu_grande{
+    color: var(--branco   );
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.plantas1 {
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: var(--azul_escuro);
+    color: var(--branco)
+}
+
+select {
+    width: 70%;
+}
